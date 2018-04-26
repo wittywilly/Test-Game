@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/SPRITE_Yellow Dot.png-c4bed5aac435c9518f582914963f4c2e.stex"
+
+[deps]
+
+source_file="res://Textures/SPRITE_Yellow Dot.png"
+source_md5="54c5f4a33f98df36d6df94fb8685a0b5"
+
+dest_files=[ "res://.import/SPRITE_Yellow Dot.png-c4bed5aac435c9518f582914963f4c2e.stex" ]
+dest_md5="06fc1a2f8ca002b815989164e4073091"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TILEMAP_Terrain.png-4d6668f690945429ec7e348414aa6ba7.stex"
+path="res://.import/TILEMAP_Pacman Walls.png-55fe8e03daea76fd0dfe34580f10fcfc.stex"
 
 [deps]
 
-source_file="res://Textures/TILEMAP_Terrain.png"
-source_md5="ac6c6f5367760081965c1866f720521f"
+source_file="res://Textures/TILEMAP_Pacman Walls.png"
+source_md5="cd99d75caf0a214e8752de0a33e5a6fd"
 
-dest_files=[ "res://.import/TILEMAP_Terrain.png-4d6668f690945429ec7e348414aa6ba7.stex" ]
-dest_md5="fc4fafc48183e290d19f0b29a20f359b"
+dest_files=[ "res://.import/TILEMAP_Pacman Walls.png-55fe8e03daea76fd0dfe34580f10fcfc.stex" ]
+dest_md5="0729fce61166844656d79288123aab14"
 
 [params]
 

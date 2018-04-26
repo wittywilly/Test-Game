@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Resources/TILESET_Pacman Walls.tres" type="TileSet" id=1]
+[ext_resource path="res://Scenes/Yellow Dot.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Pacman Sprite.tscn" type="PackedScene" id=3]
+
+[node name="Node2D" type="Node2D" index="0"]
+
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Maze" type="TileMap" parent="." index="0"]
+
+mode = 0
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( 1, 0, 0, 65537, 0, 0, 131073, 0, 0, 196609, 0, 0 )
+_sections_unfolded = [ "Cell" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Yellow Dot" parent="Maze" index="0" instance=ExtResource( 2 )]
+
+position = Vector2( 80.2725, 110.162 )
+
+[node name="Pacman" parent="Maze" index="1" instance=ExtResource( 3 )]
+
+position = Vector2( 220.963, 246.785 )
+
+
