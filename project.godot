@@ -11,7 +11,7 @@ config_version=3
 [application]
 
 config/name="Test Game"
-run/main_scene="res://Test Game.tscn"
+run/main_scene="res://Scenes/Node2D.tscn"
 config/icon="res://icon.png"
 
 [rendering]
