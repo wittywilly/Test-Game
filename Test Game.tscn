@@ -4,7 +4,11 @@
 
 [node name="Node2D" type="Node2D" index="0"]
 
-[node name="TileMap" type="TileMap" parent="." index="0"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Floor" type="TileMap" parent="." index="0"]
 
 mode = 1
 tile_set = ExtResource( 1 )
@@ -22,7 +26,28 @@ collision_layer = 1
 collision_mask = 1
 occluder_light_mask = 1
 format = 1
-tile_data = PoolIntArray(  )
+tile_data = PoolIntArray( -262132, 0, 0, -196597, 0, 0, -196596, 0, 0, -196595, 0, 0, -131062, 0, 0, -131061, 0, 0, -131060, 0, 0, -131059, 0, 0, -65526, 0, 0, -65525, 0, 0, 11, 0, 0 )
+_sections_unfolded = [ "Cell" ]
+
+[node name="Wall" type="TileMap" parent="." index="1"]
+
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 128, 64 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( -262132, 2, 0, -196597, 1, 0, -131062, 1, 0 )
 _sections_unfolded = [ "Cell" ]
 
 
