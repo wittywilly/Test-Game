@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/TILEMAP_Pacman Walls.png-55fe8e03daea76fd0dfe34580f10fcfc.stex"
+
+[deps]
+
+source_file="res://Textures/TILEMAP_Pacman Walls.png"
+source_md5="cd99d75caf0a214e8752de0a33e5a6fd"
+
+dest_files=[ "res://.import/TILEMAP_Pacman Walls.png-55fe8e03daea76fd0dfe34580f10fcfc.stex" ]
+dest_md5="0729fce61166844656d79288123aab14"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
