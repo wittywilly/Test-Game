@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TILEMAP_Pacman Walls.png-55fe8e03daea76fd0dfe34580f10fcfc.stex"
+path="res://.import/SPRITE_PACMAN_DEATH_F1.png-05ba0b1f3c3007d0736714d74d6ef320.stex"
 
 [deps]
 
-source_file="res://Textures/TILEMAP_Pacman Walls.png"
-source_md5="e877043b49e5dd7f001f7f3fa2f33032"
+source_file="res://Textures/SPRITE_PACMAN_DEATH_F1.png"
+source_md5="a6580f95858362dd02ee449e0d6cd151"
 
-dest_files=[ "res://.import/TILEMAP_Pacman Walls.png-55fe8e03daea76fd0dfe34580f10fcfc.stex" ]
-dest_md5="65b1e1708bb7e29179342ab05b14391a"
+dest_files=[ "res://.import/SPRITE_PACMAN_DEATH_F1.png-05ba0b1f3c3007d0736714d74d6ef320.stex" ]
+dest_md5="319165ee97e1e55f2c3f3c1d3e03de1f"
 
 [params]
 

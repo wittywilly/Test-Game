@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-[gd_scene format=2]
-
-[node name="Node2D" type="Node2D" index="0"]
-
-[node name="Maze" type="TileMap" parent="." index="0"]
-
-mode = 0
-tile_set = null
-=======
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Resources/TILESET_Pacman Walls.tres" type="TileSet" id=1]
-[ext_resource path="res://Scenes/Yellow Dot.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Scenes/Pacman Sprite.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Yellow Dot Big.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Yellow Dot.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/REDGHOST Sprite.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Pacman Sprite.tscn" type="PackedScene" id=5]
 
 [node name="Node2D" type="Node2D" index="0"]
 
@@ -24,8 +16,7 @@ __meta__ = {
 
 mode = 0
 tile_set = ExtResource( 1 )
->>>>>>> Wilson-Branch
-cell_size = Vector2( 32, 32 )
+cell_size = Vector2( 64, 64 )
 cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
 cell_half_offset = 2
@@ -39,23 +30,42 @@ collision_layer = 1
 collision_mask = 1
 occluder_light_mask = 1
 format = 1
-<<<<<<< HEAD
-tile_data = PoolIntArray(  )
-_sections_unfolded = [ "Cell" ]
-=======
-tile_data = PoolIntArray( 1, 0, 0, 65537, 0, 0, 131073, 0, 0, 196609, 0, 0 )
+tile_data = PoolIntArray( 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 13, 0, 0, 14, 0, 0, 15, 0, 0, 16, 0, 0, 17, 0, 0, 18, 0, 0, 19, 0, 0, 65537, 0, 0, 65546, 0, 0, 65555, 0, 0, 131073, 0, 0, 131075, 0, 0, 131076, 0, 0, 131078, 0, 0, 131079, 0, 0, 131080, 0, 0, 131082, 0, 0, 131084, 0, 0, 131085, 0, 0, 131086, 0, 0, 131088, 0, 0, 131089, 0, 0, 131091, 0, 0, 196609, 0, 0, 196627, 0, 0, 262145, 0, 0, 262147, 0, 0, 262148, 0, 0, 262150, 0, 0, 262152, 0, 0, 262153, 0, 0, 262154, 0, 0, 262155, 0, 0, 262156, 0, 0, 262158, 0, 0, 262160, 0, 0, 262161, 0, 0, 262163, 0, 0, 327681, 0, 0, 327686, 0, 0, 327690, 0, 0, 327694, 0, 0, 327699, 0, 0, 393217, 0, 0, 393218, 0, 0, 393219, 0, 0, 393220, 0, 0, 393222, 0, 0, 393223, 0, 0, 393224, 0, 0, 393226, 0, 0, 393228, 0, 0, 393229, 0, 0, 393230, 0, 0, 393232, 0, 0, 393233, 0, 0, 393234, 0, 0, 393235, 0, 0, 458756, 0, 0, 458758, 0, 0, 458766, 0, 0, 458768, 0, 0, 524288, 0, 0, 524289, 0, 0, 524290, 0, 0, 524291, 0, 0, 524292, 0, 0, 524294, 0, 0, 524296, 0, 0, 524297, 0, 0, 524299, 0, 0, 524300, 0, 0, 524302, 0, 0, 524304, 0, 0, 524305, 0, 0, 524306, 0, 0, 524307, 0, 0, 524308, 0, 0, 589832, 0, 0, 589836, 0, 0, 655360, 0, 0, 655361, 0, 0, 655362, 0, 0, 655363, 0, 0, 655364, 0, 0, 655366, 0, 0, 655368, 0, 0, 655369, 0, 0, 655370, 0, 0, 655371, 0, 0, 655372, 0, 0, 655374, 0, 0, 655376, 0, 0, 655377, 0, 0, 655378, 0, 0, 655379, 0, 0, 655380, 0, 0, 720900, 0, 0, 720902, 0, 0, 720910, 0, 0, 720912, 0, 0, 786433, 0, 0, 786434, 0, 0, 786435, 0, 0, 786436, 0, 0, 786438, 0, 0, 786440, 0, 0, 786441, 0, 0, 786442, 0, 0, 786443, 0, 0, 786444, 0, 0, 786446, 0, 0, 786448, 0, 0, 786449, 0, 0, 786450, 0, 0, 786451, 0, 0, 851969, 0, 0, 851978, 0, 0, 851987, 0, 0, 917505, 0, 0, 917507, 0, 0, 917508, 0, 0, 917510, 0, 0, 917511, 0, 0, 917512, 0, 0, 917514, 0, 0, 917516, 0, 0, 917517, 0, 0, 917518, 0, 0, 917520, 0, 0, 917521, 0, 0, 917523, 0, 0, 983041, 0, 0, 983044, 0, 0, 983056, 0, 0, 983059, 0, 0, 1048577, 0, 0, 1048578, 0, 0, 1048580, 0, 0, 1048582, 0, 0, 1048584, 0, 0, 1048585, 0, 0, 1048586, 0, 0, 1048587, 0, 0, 1048588, 0, 0, 1048590, 0, 0, 1048592, 0, 0, 1048594, 0, 0, 1048595, 0, 0, 1114113, 0, 0, 1114118, 0, 0, 1114122, 0, 0, 1114126, 0, 0, 1114131, 0, 0, 1179649, 0, 0, 1179651, 0, 0, 1179652, 0, 0, 1179653, 0, 0, 1179654, 0, 0, 1179655, 0, 0, 1179656, 0, 0, 1179658, 0, 0, 1179660, 0, 0, 1179661, 0, 0, 1179662, 0, 0, 1179663, 0, 0, 1179664, 0, 0, 1179665, 0, 0, 1179667, 0, 0, 1245185, 0, 0, 1245203, 0, 0, 1310721, 0, 0, 1310722, 0, 0, 1310723, 0, 0, 1310724, 0, 0, 1310725, 0, 0, 1310726, 0, 0, 1310727, 0, 0, 1310728, 0, 0, 1310729, 0, 0, 1310730, 0, 0, 1310731, 0, 0, 1310732, 0, 0, 1310733, 0, 0, 1310734, 0, 0, 1310735, 0, 0, 1310736, 0, 0, 1310737, 0, 0, 1310738, 0, 0, 1310739, 0, 0 )
 _sections_unfolded = [ "Cell" ]
 __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="Yellow Dot" parent="Maze" index="0" instance=ExtResource( 2 )]
+[node name="BIG YELLOW DOT" parent="Maze" index="0" instance=ExtResource( 2 )]
 
-position = Vector2( 80.2725, 110.162 )
+position = Vector2( 159.339, 983.579 )
 
-[node name="Pacman" parent="Maze" index="1" instance=ExtResource( 3 )]
+[node name="BIG YELLOW DOT2" parent="Maze" index="1" instance=ExtResource( 2 )]
 
-position = Vector2( 220.963, 246.785 )
->>>>>>> Wilson-Branch
+position = Vector2( 1198.97, 995.883 )
+
+[node name="BIG YELLOW DOT3" parent="Maze" index="2" instance=ExtResource( 2 )]
+
+position = Vector2( 155.238, 157.207 )
+
+[node name="BIG YELLOW DOT4" parent="Maze" index="3" instance=ExtResource( 2 )]
+
+position = Vector2( 1182.56, 155.156 )
+
+[node name="Yellow Dot" parent="Maze" index="4" instance=ExtResource( 3 )]
+
+position = Vector2( 161.39, 924.113 )
+
+[node name="Yellow Dot2" parent="Maze" index="5" instance=ExtResource( 3 )]
+
+position = Vector2( 155.238, 860.546 )
+
+[node name="REDGHOST" parent="." index="1" instance=ExtResource( 4 )]
+
+position = Vector2( 557.598, 189.929 )
+
+[node name="Pacman" parent="." index="2" instance=ExtResource( 5 )]
+
+position = Vector2( 628.895, 314.474 )
 
 
