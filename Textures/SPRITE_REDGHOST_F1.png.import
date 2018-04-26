@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TILEMAP_Pacman Walls.png-55fe8e03daea76fd0dfe34580f10fcfc.stex"
+path="res://.import/SPRITE_REDGHOST_F1.png-b31ac46145c31f15bc77748e83944658.stex"
 
 [deps]
 
-source_file="res://Textures/TILEMAP_Pacman Walls.png"
-source_md5="e877043b49e5dd7f001f7f3fa2f33032"
+source_file="res://Textures/SPRITE_REDGHOST_F1.png"
+source_md5="3be3dbbf00641ed80ce3b5d776950055"
 
-dest_files=[ "res://.import/TILEMAP_Pacman Walls.png-55fe8e03daea76fd0dfe34580f10fcfc.stex" ]
-dest_md5="65b1e1708bb7e29179342ab05b14391a"
+dest_files=[ "res://.import/SPRITE_REDGHOST_F1.png-b31ac46145c31f15bc77748e83944658.stex" ]
+dest_md5="21392ffcacea356af786fcc1562d5924"
 
 [params]
 

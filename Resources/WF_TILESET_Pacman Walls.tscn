@@ -1,23 +1,15 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Textures/TILEMAP_Pacman Walls.png" type="Texture" id=1]
 
-[node name="Node2D" type="Node2D" index="0"]
+[sub_resource type="RectangleShape2D" id=1]
 
-__meta__ = {
-"_edit_lock_": true
-}
+custom_solver_bias = 0.0
+extents = Vector2( 10, 10 )
 
-[node name="TILEMAP_Pacman Walls" type="Sprite" parent="." index="0"]
+[node name="Wall" type="StaticBody2D" index="0"]
 
-position = Vector2( 61.513, 52.8281 )
-texture = ExtResource( 1 )
-region_enabled = true
-region_rect = Rect2( 0, 0, 32, 32 )
-_sections_unfolded = [ "Region" ]
-
-[node name="StaticBody2D" type="StaticBody2D" parent="TILEMAP_Pacman Walls" index="0"]
-
+editor/display_folded = true
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -26,9 +18,17 @@ constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="TILEMAP_Pacman Walls/StaticBody2D" index="0"]
+[node name="TILEMAP_Pacman Walls" type="Sprite" parent="." index="0"]
 
-build_mode = 0
-polygon = PoolVector2Array( 14.7582, -15.377, 15.2338, 15.0648, -15.9215, 15.3026, -16.1593, -15.6149 )
+position = Vector2( -0.0552063, -0.795818 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 64, 64 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+
+position = Vector2( 0.461342, -1.63071 )
+shape = SubResource( 1 )
 
 
